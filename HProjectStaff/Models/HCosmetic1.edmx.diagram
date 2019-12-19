@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="b28105d5b4754cf9b15d801a77023777" Name="Diagram1">
+        <EntityTypeShape EntityType="HCosmeticModel.C__MigrationHistory" Width="1.5" PointX="0.75" PointY="6.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="HCosmeticModel.AspNetRole" Width="1.5" PointX="8.75" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="HCosmeticModel.AspNetUserClaim" Width="1.5" PointX="13.25" PointY="7.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="HCosmeticModel.AspNetUserLogin" Width="1.5" PointX="13.25" PointY="10" IsExpanded="true" />
+        <EntityTypeShape EntityType="HCosmeticModel.AspNetUser" Width="1.5" PointX="11" PointY="7.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="HCosmeticModel.Category" Width="1.5" PointX="3.75" PointY="7.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="HCosmeticModel.OrderDetail" Width="1.5" PointX="8.25" PointY="3.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="HCosmeticModel.Order" Width="1.5" PointX="3" PointY="3.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="HCosmeticModel.Product" Width="1.5" PointX="6" PointY="7.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="HCosmeticModel.Role" Width="1.5" PointX="3.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="HCosmeticModel.SalePerson" Width="1.5" PointX="6" PointY="3.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="HCosmeticModel.Store" Width="1.5" PointX="0.75" PointY="3.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="HCosmeticModel.sysdiagram" Width="1.5" PointX="0.75" PointY="9.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="HCosmeticModel.Reve" Width="1.5" PointX="10.75" PointY="0.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="HCosmeticModel.revenue" Width="1.5" PointX="2.75" PointY="10.875" IsExpanded="true" />
+        <AssociationConnector Association="HCosmeticModel.FK_dbo_AspNetUserClaims_dbo_AspNetUsers_UserId" ManuallyRouted="false" />
+        <AssociationConnector Association="HCosmeticModel.FK_dbo_AspNetUserLogins_dbo_AspNetUsers_UserId" ManuallyRouted="false" />
+        <AssociationConnector Association="HCosmeticModel.FK_Products_Categories" ManuallyRouted="false" />
+        <AssociationConnector Association="HCosmeticModel.FK_OrderDetails_Orders" ManuallyRouted="false" />
+        <AssociationConnector Association="HCosmeticModel.FK_OrderDetails_Products" ManuallyRouted="false" />
+        <AssociationConnector Association="HCosmeticModel.FK_Orders_SalePersons1" ManuallyRouted="false" />
+        <AssociationConnector Association="HCosmeticModel.FK_Orders_Stores" ManuallyRouted="false" />
+        <AssociationConnector Association="HCosmeticModel.FK_SalePersons_Roles" ManuallyRouted="false" />
+        <AssociationConnector Association="HCosmeticModel.FK_SalePersons_Stores" ManuallyRouted="false" />
+        <AssociationConnector Association="HCosmeticModel.AspNetUserRoles" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

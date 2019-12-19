@@ -1,0 +1,70 @@
+﻿@model IEnumerable<HProject.Models.SalePerson>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Manage staff</h2>
+
+<p>
+    @*@Html.ActionLink("Add new staff", "Create")*@
+</p>
+<table class="table table-striped table-hover">
+    <tr>
+        <th>
+            @*@Html.DisplayNameFor(model => model.Role.RoleName)*@
+            Role
+        </th>
+        <th>
+            @*@Html.DisplayNameFor(model => model.Store.StoreName)*@
+            Store's name
+        </th>
+        <th>
+            @*@Html.DisplayNameFor(model => model.SalePersonName)*@
+            Staff's name
+        </th>
+        <th>
+            @*@Html.DisplayNameFor(model => model.SalePersonPhone)*@
+            Staff's phone
+        </th>
+        <th>
+            @*@Html.DisplayNameFor(model => model.UserId)*@
+            Username
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Password)
+        </th>
+        <th>
+            Tool
+        </th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Role.RoleName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Store.StoreName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.SalePersonName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.SalePersonPhone)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.UserId)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Password)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.SalePersonId }) |
+            @Html.ActionLink("Details", "Details", new { id=item.SalePersonId }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.SalePersonId })
+        </td>
+    </tr>
+}
+
+</table>

@@ -1,0 +1,123 @@
+﻿@model IEnumerable<HProject.Models.revenue>
+@{
+    ViewBag.Title = "Bystore";
+    //Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Report by Store</h2>
+<br />
+
+@{
+    var fromDate = (DateTime)ViewBag.fromDate;
+    var toDate = (DateTime)ViewBag.toDate;
+    var TotalQuantity = Model.Sum(x => x.Quantity);
+    var TotalStore = Model.Sum(a => a.Quantity * a.Price);
+}
+
+@using (Html.BeginForm("Bystore", "ReportView", FormMethod.Get))
+{
+<div style="padding-left:10%">
+    <b>From Date:&nbsp;&nbsp;&nbsp;</b> @Html.TextBox("fromDate", string.Format("{0:dd/MM/yyyy}", fromDate), new { @class = "datefield form-control", style = "width: 280px; display: inline" ,type = "date" })&nbsp;&nbsp;&nbsp;
+    <b>To Date:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</b> @Html.TextBox("toDate", string.Format("{0:dd/MM/yyyy}", fromDate), new { @class = "datefield form-control", style = "width: 280px; display: inline", type = "date" })
+    <b>Store:&nbsp;</b>@Html.DropDownList("StoreList", ViewBag.StoreLocation as SelectList, "Plesae Select Store Location", new { @class = "form-control", style = "width: 280px; display: inline" })&nbsp;&nbsp;&nbsp;&nbsp;
+    <button class="btn btn-sm btn-info" type="submit">Search</button>
+</div>
+    @*<div style="padding-left:20%">
+        <br />
+        <b>Store ID:&nbsp;</b>@Html.DropDownList("StoreList", ViewBag.StoreLocation as SelectList, "Plesae Select Store Location")&nbsp;&nbsp;&nbsp;
+
+        <div style="padding-left:30%">
+            <br />
+            <button class="btn btn-sm btn-info" type="submit">Search</button>
+        </div>
+    </div>*@
+}
+
+<br />
+<br />
+<div class="row-fluid sortable">
+    <div class="">
+        <div class="box-content">
+            <table class="table table-striped table-bordered bootstrap-datatable datatable">
+                <thead>
+                    <tr>
+                        <th>
+                            @Html.DisplayNameFor(model => model.OrderDetailId)
+                        </th>
+                        <th>
+                            @Html.DisplayNameFor(model => model.OrderDate)
+                        </th>
+                        <th>
+                            @Html.DisplayNameFor(model => model.CustomerName)
+                        </th>
+                        <th>
+                            @Html.DisplayNameFor(model => model.ProductName)
+                        </th>
+                        <th>
+                            @Html.DisplayNameFor(model => model.Price)
+                        </th>
+                        <th>
+                            @Html.DisplayNameFor(model => model.Quantity)
+                        </th>
+                        <th>
+                            Total
+                        </th>
+                        <th>
+                            @Html.DisplayNameFor(model => model.StoreLocation)
+                        </th>
+                        <th>
+                            @Html.DisplayNameFor(model => model.SalePersonName)
+                        </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model)
+                    {
+                        var total = item.Price * item.Quantity;
+                        <tr>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.OrderDetailId)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.OrderDate)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.CustomerName)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.ProductName)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.Price)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.Quantity)
+                            </td>
+                            <td>
+                                @*@Html.DisplayFor(modelItem => item.CustomerPhone)*@
+                                @*@item.TotalPrice*@
+                                $@total
+
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.StoreLocation)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.SalePersonName)
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td colspan="5"></td>
+                        <td style="color:#0f9aee"><b>Quantity: @TotalQuantity</b></td>
+                        <td style="color:#0f9aee"><b> $@TotalStore</b></td>
+                        <td colspan="2"></td>
+                    </tr>
+                </tfoot>
+            </table>
+        </div>
+    </div><!--/span-->
+
+</div>

@@ -1,0 +1,43 @@
+﻿@model IEnumerable<HProject.Models.Store>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Manage Store</h2>
+
+<p>
+    @*@Html.ActionLink("Add a new store branch", "Create")*@
+</p>
+<table class="table table-striped table-hover">
+    <tr>
+        <th>
+            @*@Html.DisplayNameFor(model => model.StoreName)*@
+            Store's name
+        </th>
+        <th>
+            @*@Html.DisplayNameFor(model => model.StoreLocation)*@
+            Store's address
+        </th>
+        <th>
+            Tool
+        </th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.StoreName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.StoreLocation)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.StoreId }) |
+            @*@Html.ActionLink("Details", "Details", new { id=item.StoreId }) |*@
+            @Html.ActionLink("Delete", "Delete", new { id=item.StoreId })
+        </td>
+    </tr>
+}
+
+</table>

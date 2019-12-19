@@ -1,0 +1,89 @@
+﻿@model HProject.Models.Order
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Order</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.SalePerson.SalePersonName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.SalePerson.SalePersonName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Store.StoreName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Store.StoreName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.OrderDate)
+        </dt>
+
+        <dd>
+            @Html.FormatValue(Model.OrderDate, "{0:dd/MM/yyyy}")
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.CustomerName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CustomerName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.CustomerPhone)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CustomerPhone)
+        </dd>
+        <dt>
+            Total Price
+        </dt>
+        <dd>
+            $@Model.TotalPrice
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.OrderId }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>Name</th>
+            <th>Price</th>
+            <th>Quantity</th>
+            <th>Amount</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in ViewBag.OrderDetails)
+        {
+            <tr>
+                <td>@item.OrderDetailId</td>
+                <td>@item.Product.ProductName</td>
+                <td>$@item.Price</td>
+                <td>@item.Quantity</td>
+                <td>$@(item.Price * item.Quantity)</td>
+                <td></td>
+            </tr>
+        }
+    </tbody>
+</table>

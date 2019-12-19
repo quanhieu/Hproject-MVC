@@ -1,0 +1,95 @@
+﻿@model IEnumerable<HProject.Models.Order>
+
+
+@{
+    ViewBag.Title = "Index";
+}
+
+
+<h2>Report generating:</h2>
+<h4>Daily</h4>
+
+@{
+    var fromDate = (DateTime)ViewBag.fromDate;
+    var toDate = (DateTime)ViewBag.toDate;
+}
+
+@using (Html.BeginForm("Index", "ReportView", FormMethod.Get))
+{
+
+    <br />
+    <br />
+    <div>
+        In range of date: &nbsp &nbsp @*@Html.TextBox("fromDate", string.Format("{0:/MM/dd/yyyy}", fromDate), new { @class = "datefield", type = "date", @class1 = "form-control" })*@
+        @Html.TextBox("fromDate", string.Format("{0:dd/MM/yyyy}", fromDate), new { @class = "datefield form-control", style = "width: 250px; display: inline", type = "date" })&nbsp;&nbsp;&nbsp;
+        -
+        @Html.TextBox("toDate", string.Format("{0:dd/MM/yyyy}", fromDate), new { @class = "datefield form-control", style = "width: 250px; display: inline", type = "date" })
+        @*@Html.TextBox("toDate", string.Format("{0:dd/MM/yyyy}", fromDate), new { @class = "datefield", type = "date", @class1 = "form-control" })&nbsp &nbsp &nbsp*@
+        <button class="btn btn btn-info" type="submit">Check Report</button>
+    </div>
+}
+<br />
+<br />
+
+@*<p>
+    @Html.ActionLink("Create New", "Create")
+</p>*@
+<table class="table table-bordered">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.SalePerson.SalePersonName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Store.StoreName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.OrderDate)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.CustomerName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.CustomerPhone)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.SalePerson.SalePersonName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Store.StoreName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.OrderDate)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.CustomerName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.CustomerPhone)
+        </td>
+
+        @*<div class="form-group">
+            @Html.LabelFor(model => model.StoreId, "Store's name", htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.DropDownList("StoreId", null, htmlAttributes: new { @class = "form-control" })
+                @Html.ValidationMessageFor(model => model.StoreId, "", new { @class = "text-danger" })
+            </div>
+        </div>*@
+        @*<td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.OrderId }) |
+            @Html.ActionLink("Details", "Details", new { id=item.OrderId }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.OrderId })
+        </td>*@
+    </tr>
+}
+
+</table>
+<br />
+<br />
+
+<h3 style="color: red">Note: </h3>
+<h6>If has an order on current day, the order will be show. Otherwise it will not show</h6>

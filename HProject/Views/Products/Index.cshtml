@@ -1,0 +1,97 @@
+﻿@model IEnumerable<HProject.Models.Product>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>PRODUCT</h2>
+<br />
+<p>
+    @*@Html.ActionLink("Add new product", "Create")*@
+</p>
+<br />
+<br />
+<table class="table table-striped table-hover">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Category.CategoryName)
+        </th>
+        <th>
+            @*@Html.DisplayNameFor(model => model.ProductName)*@
+            Product's name
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Price)
+        </th>
+        @*<th>
+                @Html.DisplayNameFor(model => model.Image)
+            </th>*@
+        <th>
+            @Html.DisplayNameFor(model => model.Description)
+        </th>
+        <th>
+            @*@Html.DisplayNameFor(model => model.UnitsInOrder)*@
+            Unit
+        </th>
+        <th>
+            Tool
+        </th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Category.CategoryName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ProductName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Price)
+            </td>
+            @*<td>
+                    @Html.DisplayFor(modelItem => item.Image)
+
+                </td>*@
+            <td>
+                @Html.DisplayFor(modelItem => item.Description)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.UnitsInOrder)
+            </td>
+            <td>
+                <button class="form-control">@Html.ActionLink("Edit", "Edit", new { id = item.ProductId }) </button>
+                <button class="form-control">@Html.ActionLink("Details", "Details", new { id = item.ProductId })</button>
+                <button class="form-control">@Html.ActionLink("Delete", "Delete", new { id = item.ProductId })</button>
+            </td>
+        </tr>
+    }
+
+</table>
+
+<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+<script type="text/javascript">
+    google.charts.load("current", { packages: ["corechart"] });
+    google.charts.setOnLoadCallback(drawChart);
+    function drawChart() {
+        var data = google.visualization.arrayToDataTable([
+            ['Task', 'Hours per Day']
+            @foreach (var item in Model)
+{
+    <text>,['@Html.Raw(item.ProductName)', @item.Price]</text>
+}
+        ]);
+
+        var options = {
+            title: 'Product',
+            is3D: true,
+        };
+
+        var chart = new google.visualization.PieChart(document.getElementById('piechart_3d'));
+        chart.draw(data, options);
+    }
+</script>
+
+<div id="piechart_3d" style="width: 900px; height: 500px;"></div>
+

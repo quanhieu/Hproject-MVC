@@ -1,0 +1,34 @@
+﻿@model IEnumerable<HProject.Models.Inventory>
+@{
+    ViewBag.Title = "Inventory";
+
+}
+
+<h2>Inventory by @ViewBag.Group</h2>
+<table class="table">
+    <thead>
+        <tr>
+            <th>@ViewBag.Group</th>
+            <th>Count</th>
+            <th>Sum</th>
+            <th>Min</th>
+            <th>Max</th>
+            <th>Avg</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.Group</td>
+                <td>@item.Count</td>
+                <td>
+                    @Html.FormatValue(item.Sum, "{0:c}")
+                </td>
+                <td>@Html.FormatValue(item.Min, "{0:c}")</td>
+                <td>@Html.FormatValue(item.Max, "{0:c}")</td>
+                <td>@Html.FormatValue(item.Avg, "{0:c}")</td>
+            </tr>
+        }
+    </tbody>
+</table>

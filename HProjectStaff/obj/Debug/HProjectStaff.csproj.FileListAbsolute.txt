@@ -1,0 +1,214 @@
+c:\Users\User\documents\visual studio 2015\Projects\HProject\HProjectStaff\bin\ApplicationInsights.config
+c:\Users\User\documents\visual studio 2015\Projects\HProject\HProjectStaff\bin\roslyn\csc.exe
+c:\Users\User\documents\visual studio 2015\Projects\HProject\HProjectStaff\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+c:\Users\User\documents\visual studio 2015\Projects\HProject\HProjectStaff\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+c:\Users\User\documents\visual studio 2015\Projects\HProject\HProjectStaff\bin\roslyn\Microsoft.CodeAnalysis.dll
+c:\Users\User\documents\visual studio 2015\Projects\HProject\HProjectStaff\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+c:\Users\User\documents\visual studio 2015\Projects\HProject\HProjectStaff\bin\roslyn\Microsoft.CSharp.Core.targets
+c:\Users\User\documents\visual studio 2015\Projects\HProject\HProjectStaff\bin\roslyn\Microsoft.VisualBasic.Core.targets
+c:\Users\User\documents\visual studio 2015\Projects\HProject\HProjectStaff\bin\roslyn\System.Collections.Immutable.dll
+c:\Users\User\documents\visual studio 2015\Projects\HProject\HProjectStaff\bin\roslyn\System.Reflection.Metadata.dll
+c:\Users\User\documents\visual studio 2015\Projects\HProject\HProjectStaff\bin\roslyn\vbc.exe
+c:\Users\User\documents\visual studio 2015\Projects\HProject\HProjectStaff\bin\roslyn\VBCSCompiler.exe
+c:\Users\User\documents\visual studio 2015\Projects\HProject\HProjectStaff\bin\roslyn\VBCSCompiler.exe.config
+c:\Users\User\documents\visual studio 2015\Projects\HProject\HProjectStaff\bin\HProjectStaff.dll.config
+c:\Users\User\documents\visual studio 2015\Projects\HProject\HProjectStaff\bin\HProjectStaff.dll
+c:\Users\User\documents\visual studio 2015\Projects\HProject\HProjectStaff\bin\HProjectStaff.pdb
+c:\Users\User\documents\visual studio 2015\Projects\HProject\HProjectStaff\bin\Antlr3.Runtime.dll
+c:\Users\User\documents\visual studio 2015\Projects\HProject\HProjectStaff\bin\EntityFramework.dll
+c:\Users\User\documents\visual studio 2015\Projects\HProject\HProjectStaff\bin\EntityFramework.SqlServer.dll
+c:\Users\User\documents\visual studio 2015\Projects\HProject\HProjectStaff\bin\Microsoft.AI.Agent.Intercept.dll
+c:\Users\User\documents\visual studio 2015\Projects\HProject\HProjectStaff\bin\Microsoft.AI.DependencyCollector.dll
+c:\Users\User\documents\visual studio 2015\Projects\HProject\HProjectStaff\bin\Microsoft.AI.PerfCounterCollector.dll
+c:\Users\User\documents\visual studio 2015\Projects\HProject\HProjectStaff\bin\Microsoft.AI.ServerTelemetryChannel.dll
+c:\Users\User\documents\visual studio 2015\Projects\HProject\HProjectStaff\bin\Microsoft.AI.Web.dll
+c:\Users\User\documents\visual studio 2015\Projects\HProject\HProjectStaff\bin\Microsoft.AI.WindowsServer.dll
+c:\Users\User\documents\visual studio 2015\Projects\HProject\HProjectStaff\bin\Microsoft.ApplicationInsights.dll
+c:\Users\User\documents\visual studio 2015\Projects\HProject\HProjectStaff\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+c:\Users\User\documents\visual studio 2015\Projects\HProject\HProjectStaff\bin\Microsoft.Web.Infrastructure.dll
+c:\Users\User\documents\visual studio 2015\Projects\HProject\HProjectStaff\bin\Newtonsoft.Json.dll
+c:\Users\User\documents\visual studio 2015\Projects\HProject\HProjectStaff\bin\System.Web.Helpers.dll
+c:\Users\User\documents\visual studio 2015\Projects\HProject\HProjectStaff\bin\System.Web.Mvc.dll
+c:\Users\User\documents\visual studio 2015\Projects\HProject\HProjectStaff\bin\System.Web.Optimization.dll
+c:\Users\User\documents\visual studio 2015\Projects\HProject\HProjectStaff\bin\System.Web.Razor.dll
+c:\Users\User\documents\visual studio 2015\Projects\HProject\HProjectStaff\bin\System.Web.WebPages.Deployment.dll
+c:\Users\User\documents\visual studio 2015\Projects\HProject\HProjectStaff\bin\System.Web.WebPages.dll
+c:\Users\User\documents\visual studio 2015\Projects\HProject\HProjectStaff\bin\System.Web.WebPages.Razor.dll
+c:\Users\User\documents\visual studio 2015\Projects\HProject\HProjectStaff\bin\WebGrease.dll
+c:\Users\User\documents\visual studio 2015\Projects\HProject\HProjectStaff\bin\EntityFramework.xml
+c:\Users\User\documents\visual studio 2015\Projects\HProject\HProjectStaff\bin\EntityFramework.SqlServer.xml
+c:\Users\User\documents\visual studio 2015\Projects\HProject\HProjectStaff\bin\Microsoft.AI.DependencyCollector.xml
+c:\Users\User\documents\visual studio 2015\Projects\HProject\HProjectStaff\bin\Microsoft.AI.ServerTelemetryChannel.xml
+c:\Users\User\documents\visual studio 2015\Projects\HProject\HProjectStaff\bin\Microsoft.AI.Web.xml
+c:\Users\User\documents\visual studio 2015\Projects\HProject\HProjectStaff\bin\Microsoft.AI.WindowsServer.xml
+c:\Users\User\documents\visual studio 2015\Projects\HProject\HProjectStaff\bin\Microsoft.ApplicationInsights.xml
+c:\Users\User\documents\visual studio 2015\Projects\HProject\HProjectStaff\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+c:\Users\User\documents\visual studio 2015\Projects\HProject\HProjectStaff\bin\System.Web.Helpers.xml
+c:\Users\User\documents\visual studio 2015\Projects\HProject\HProjectStaff\bin\System.Web.Mvc.xml
+c:\Users\User\documents\visual studio 2015\Projects\HProject\HProjectStaff\bin\System.Web.Optimization.xml
+c:\Users\User\documents\visual studio 2015\Projects\HProject\HProjectStaff\bin\System.Web.Razor.xml
+c:\Users\User\documents\visual studio 2015\Projects\HProject\HProjectStaff\bin\System.Web.WebPages.xml
+c:\Users\User\documents\visual studio 2015\Projects\HProject\HProjectStaff\bin\System.Web.WebPages.Deployment.xml
+c:\Users\User\documents\visual studio 2015\Projects\HProject\HProjectStaff\bin\System.Web.WebPages.Razor.xml
+c:\Users\User\documents\visual studio 2015\Projects\HProject\HProjectStaff\bin\Antlr3.Runtime.pdb
+c:\Users\User\documents\visual studio 2015\Projects\HProject\HProjectStaff\bin\Newtonsoft.Json.xml
+c:\Users\User\documents\visual studio 2015\Projects\HProject\HProjectStaff\obj\Debug\HProjectStaff.dll
+c:\Users\User\documents\visual studio 2015\Projects\HProject\HProjectStaff\obj\Debug\HProjectStaff.pdb
+C:\Users\User\Documents\Visual Studio 2015\Projects\HProject\HProjectStaff\obj\Debug\HProjectStaff.csprojResolveAssemblyReference.cache
+C:\Users\Asus\Desktop\WEB APP\HProject\HProjectStaff\bin\ApplicationInsights.config
+C:\Users\Asus\Desktop\WEB APP\HProject\HProjectStaff\bin\roslyn\csc.exe
+C:\Users\Asus\Desktop\WEB APP\HProject\HProjectStaff\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Asus\Desktop\WEB APP\HProject\HProjectStaff\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Asus\Desktop\WEB APP\HProject\HProjectStaff\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Asus\Desktop\WEB APP\HProject\HProjectStaff\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Asus\Desktop\WEB APP\HProject\HProjectStaff\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Asus\Desktop\WEB APP\HProject\HProjectStaff\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Asus\Desktop\WEB APP\HProject\HProjectStaff\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Asus\Desktop\WEB APP\HProject\HProjectStaff\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Asus\Desktop\WEB APP\HProject\HProjectStaff\bin\roslyn\vbc.exe
+C:\Users\Asus\Desktop\WEB APP\HProject\HProjectStaff\bin\roslyn\VBCSCompiler.exe
+C:\Users\Asus\Desktop\WEB APP\HProject\HProjectStaff\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Asus\Desktop\WEB APP\HProject\HProjectStaff\bin\HProjectStaff.dll.config
+C:\Users\Asus\Desktop\WEB APP\HProject\HProjectStaff\bin\HProjectStaff.dll
+C:\Users\Asus\Desktop\WEB APP\HProject\HProjectStaff\bin\HProjectStaff.pdb
+C:\Users\Asus\Desktop\WEB APP\HProject\HProjectStaff\bin\Antlr3.Runtime.dll
+C:\Users\Asus\Desktop\WEB APP\HProject\HProjectStaff\bin\EntityFramework.dll
+C:\Users\Asus\Desktop\WEB APP\HProject\HProjectStaff\bin\EntityFramework.SqlServer.dll
+C:\Users\Asus\Desktop\WEB APP\HProject\HProjectStaff\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Asus\Desktop\WEB APP\HProject\HProjectStaff\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Asus\Desktop\WEB APP\HProject\HProjectStaff\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Asus\Desktop\WEB APP\HProject\HProjectStaff\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Asus\Desktop\WEB APP\HProject\HProjectStaff\bin\Microsoft.AI.Web.dll
+C:\Users\Asus\Desktop\WEB APP\HProject\HProjectStaff\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Asus\Desktop\WEB APP\HProject\HProjectStaff\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Asus\Desktop\WEB APP\HProject\HProjectStaff\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Asus\Desktop\WEB APP\HProject\HProjectStaff\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Asus\Desktop\WEB APP\HProject\HProjectStaff\bin\Newtonsoft.Json.dll
+C:\Users\Asus\Desktop\WEB APP\HProject\HProjectStaff\bin\System.Web.Helpers.dll
+C:\Users\Asus\Desktop\WEB APP\HProject\HProjectStaff\bin\System.Web.Mvc.dll
+C:\Users\Asus\Desktop\WEB APP\HProject\HProjectStaff\bin\System.Web.Optimization.dll
+C:\Users\Asus\Desktop\WEB APP\HProject\HProjectStaff\bin\System.Web.Razor.dll
+C:\Users\Asus\Desktop\WEB APP\HProject\HProjectStaff\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Asus\Desktop\WEB APP\HProject\HProjectStaff\bin\System.Web.WebPages.dll
+C:\Users\Asus\Desktop\WEB APP\HProject\HProjectStaff\bin\System.Web.WebPages.Razor.dll
+C:\Users\Asus\Desktop\WEB APP\HProject\HProjectStaff\bin\WebGrease.dll
+C:\Users\Asus\Desktop\WEB APP\HProject\HProjectStaff\bin\EntityFramework.xml
+C:\Users\Asus\Desktop\WEB APP\HProject\HProjectStaff\bin\EntityFramework.SqlServer.xml
+C:\Users\Asus\Desktop\WEB APP\HProject\HProjectStaff\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Asus\Desktop\WEB APP\HProject\HProjectStaff\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Asus\Desktop\WEB APP\HProject\HProjectStaff\bin\Microsoft.AI.Web.xml
+C:\Users\Asus\Desktop\WEB APP\HProject\HProjectStaff\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Asus\Desktop\WEB APP\HProject\HProjectStaff\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Asus\Desktop\WEB APP\HProject\HProjectStaff\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Asus\Desktop\WEB APP\HProject\HProjectStaff\bin\System.Web.Helpers.xml
+C:\Users\Asus\Desktop\WEB APP\HProject\HProjectStaff\bin\System.Web.Mvc.xml
+C:\Users\Asus\Desktop\WEB APP\HProject\HProjectStaff\bin\System.Web.Optimization.xml
+C:\Users\Asus\Desktop\WEB APP\HProject\HProjectStaff\bin\System.Web.Razor.xml
+C:\Users\Asus\Desktop\WEB APP\HProject\HProjectStaff\bin\System.Web.WebPages.xml
+C:\Users\Asus\Desktop\WEB APP\HProject\HProjectStaff\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Asus\Desktop\WEB APP\HProject\HProjectStaff\bin\System.Web.WebPages.Razor.xml
+C:\Users\Asus\Desktop\WEB APP\HProject\HProjectStaff\bin\Antlr3.Runtime.pdb
+C:\Users\Asus\Desktop\WEB APP\HProject\HProjectStaff\bin\Newtonsoft.Json.xml
+C:\Users\Asus\Desktop\WEB APP\HProject\HProjectStaff\obj\Debug\HProjectStaff.dll
+C:\Users\Asus\Desktop\WEB APP\HProject\HProjectStaff\obj\Debug\HProjectStaff.pdb
+C:\Users\Asus\Desktop\WEB APP\HProject\HProjectStaff\obj\Debug\HProjectStaff.csprojResolveAssemblyReference.cache
+C:\Users\Thanh\Desktop\IT 7 WEB APP\IT 7 WEB APP\Code WebApp\HProject\HProject\HProjectStaff\obj\Debug\HProjectStaff.csprojResolveAssemblyReference.cache
+C:\Users\Thanh\Desktop\IT 7 WEB APP\IT 7 WEB APP\Code WebApp\HProject\HProject\HProjectStaff\obj\Debug\HProjectStaff.csproj.CoreCompileInputs.cache
+C:\Users\Thanh\Desktop\IT 7 WEB APP\IT 7 WEB APP\Code WebApp\HProject\HProject\HProjectStaff\obj\Debug\HProjectStaff.dll
+C:\Users\Thanh\Desktop\IT 7 WEB APP\IT 7 WEB APP\Code WebApp\HProject\HProject\HProjectStaff\obj\Debug\HProjectStaff.pdb
+G:\OneDrive - K3v(1)\Engrish + IT\1 code\6.2Web Application Development (1510)\tuye\Assignment-WAD-GCS0501\Desktop\IT 7 WEB APP\IT 7 WEB APP\Code WebApp\HProject\HProject\HProjectStaff\obj\Debug\HProjectStaff.dll
+G:\OneDrive - K3v(1)\Engrish + IT\1 code\6.2Web Application Development (1510)\tuye\Assignment-WAD-GCS0501\Desktop\IT 7 WEB APP\IT 7 WEB APP\Code WebApp\HProject\HProject\HProjectStaff\obj\Debug\HProjectStaff.pdb
+G:\OneDrive - K3v(1)\Engrish + IT\1 code\6.2Web Application Development (1510)\tuye\Assignment-WAD-GCS0501\Desktop\IT 7 WEB APP\IT 7 WEB APP\Code WebApp\HProject\HProject\HProjectStaff\obj\Debug\HProjectStaff.csproj.CoreCompileInputs.cache
+G:\OneDrive - K3v(1)\Engrish + IT\1 code\6.2Web Application Development (1510)\tuye\Assignment-WAD-GCS0501\Desktop\IT 7 WEB APP\IT 7 WEB APP\Code WebApp\HProject\HProject\HProjectStaff\bin\ApplicationInsights.config
+G:\OneDrive - K3v(1)\Engrish + IT\1 code\6.2Web Application Development (1510)\tuye\Assignment-WAD-GCS0501\Desktop\IT 7 WEB APP\IT 7 WEB APP\Code WebApp\HProject\HProject\HProjectStaff\bin\HProjectStaff.dll.config
+G:\OneDrive - K3v(1)\Engrish + IT\1 code\6.2Web Application Development (1510)\tuye\Assignment-WAD-GCS0501\Desktop\IT 7 WEB APP\IT 7 WEB APP\Code WebApp\HProject\HProject\HProjectStaff\bin\HProjectStaff.dll
+G:\OneDrive - K3v(1)\Engrish + IT\1 code\6.2Web Application Development (1510)\tuye\Assignment-WAD-GCS0501\Desktop\IT 7 WEB APP\IT 7 WEB APP\Code WebApp\HProject\HProject\HProjectStaff\bin\HProjectStaff.pdb
+G:\OneDrive - K3v(1)\Engrish + IT\1 code\6.2Web Application Development (1510)\tuye\Assignment-WAD-GCS0501\Desktop\IT 7 WEB APP\IT 7 WEB APP\Code WebApp\HProject\HProject\HProjectStaff\bin\Antlr3.Runtime.dll
+G:\OneDrive - K3v(1)\Engrish + IT\1 code\6.2Web Application Development (1510)\tuye\Assignment-WAD-GCS0501\Desktop\IT 7 WEB APP\IT 7 WEB APP\Code WebApp\HProject\HProject\HProjectStaff\bin\EntityFramework.dll
+G:\OneDrive - K3v(1)\Engrish + IT\1 code\6.2Web Application Development (1510)\tuye\Assignment-WAD-GCS0501\Desktop\IT 7 WEB APP\IT 7 WEB APP\Code WebApp\HProject\HProject\HProjectStaff\bin\EntityFramework.SqlServer.dll
+G:\OneDrive - K3v(1)\Engrish + IT\1 code\6.2Web Application Development (1510)\tuye\Assignment-WAD-GCS0501\Desktop\IT 7 WEB APP\IT 7 WEB APP\Code WebApp\HProject\HProject\HProjectStaff\bin\Microsoft.AI.Web.dll
+G:\OneDrive - K3v(1)\Engrish + IT\1 code\6.2Web Application Development (1510)\tuye\Assignment-WAD-GCS0501\Desktop\IT 7 WEB APP\IT 7 WEB APP\Code WebApp\HProject\HProject\HProjectStaff\bin\Microsoft.ApplicationInsights.dll
+G:\OneDrive - K3v(1)\Engrish + IT\1 code\6.2Web Application Development (1510)\tuye\Assignment-WAD-GCS0501\Desktop\IT 7 WEB APP\IT 7 WEB APP\Code WebApp\HProject\HProject\HProjectStaff\bin\Microsoft.Web.Infrastructure.dll
+G:\OneDrive - K3v(1)\Engrish + IT\1 code\6.2Web Application Development (1510)\tuye\Assignment-WAD-GCS0501\Desktop\IT 7 WEB APP\IT 7 WEB APP\Code WebApp\HProject\HProject\HProjectStaff\bin\Newtonsoft.Json.dll
+G:\OneDrive - K3v(1)\Engrish + IT\1 code\6.2Web Application Development (1510)\tuye\Assignment-WAD-GCS0501\Desktop\IT 7 WEB APP\IT 7 WEB APP\Code WebApp\HProject\HProject\HProjectStaff\bin\System.Web.Helpers.dll
+G:\OneDrive - K3v(1)\Engrish + IT\1 code\6.2Web Application Development (1510)\tuye\Assignment-WAD-GCS0501\Desktop\IT 7 WEB APP\IT 7 WEB APP\Code WebApp\HProject\HProject\HProjectStaff\bin\System.Web.Mvc.dll
+G:\OneDrive - K3v(1)\Engrish + IT\1 code\6.2Web Application Development (1510)\tuye\Assignment-WAD-GCS0501\Desktop\IT 7 WEB APP\IT 7 WEB APP\Code WebApp\HProject\HProject\HProjectStaff\bin\System.Web.Optimization.dll
+G:\OneDrive - K3v(1)\Engrish + IT\1 code\6.2Web Application Development (1510)\tuye\Assignment-WAD-GCS0501\Desktop\IT 7 WEB APP\IT 7 WEB APP\Code WebApp\HProject\HProject\HProjectStaff\bin\System.Web.Razor.dll
+G:\OneDrive - K3v(1)\Engrish + IT\1 code\6.2Web Application Development (1510)\tuye\Assignment-WAD-GCS0501\Desktop\IT 7 WEB APP\IT 7 WEB APP\Code WebApp\HProject\HProject\HProjectStaff\bin\System.Web.WebPages.Deployment.dll
+G:\OneDrive - K3v(1)\Engrish + IT\1 code\6.2Web Application Development (1510)\tuye\Assignment-WAD-GCS0501\Desktop\IT 7 WEB APP\IT 7 WEB APP\Code WebApp\HProject\HProject\HProjectStaff\bin\System.Web.WebPages.dll
+G:\OneDrive - K3v(1)\Engrish + IT\1 code\6.2Web Application Development (1510)\tuye\Assignment-WAD-GCS0501\Desktop\IT 7 WEB APP\IT 7 WEB APP\Code WebApp\HProject\HProject\HProjectStaff\bin\System.Web.WebPages.Razor.dll
+G:\OneDrive - K3v(1)\Engrish + IT\1 code\6.2Web Application Development (1510)\tuye\Assignment-WAD-GCS0501\Desktop\IT 7 WEB APP\IT 7 WEB APP\Code WebApp\HProject\HProject\HProjectStaff\bin\WebGrease.dll
+G:\OneDrive - K3v(1)\Engrish + IT\1 code\6.2Web Application Development (1510)\tuye\Assignment-WAD-GCS0501\Desktop\IT 7 WEB APP\IT 7 WEB APP\Code WebApp\HProject\HProject\HProjectStaff\bin\EntityFramework.xml
+G:\OneDrive - K3v(1)\Engrish + IT\1 code\6.2Web Application Development (1510)\tuye\Assignment-WAD-GCS0501\Desktop\IT 7 WEB APP\IT 7 WEB APP\Code WebApp\HProject\HProject\HProjectStaff\bin\EntityFramework.SqlServer.xml
+G:\OneDrive - K3v(1)\Engrish + IT\1 code\6.2Web Application Development (1510)\tuye\Assignment-WAD-GCS0501\Desktop\IT 7 WEB APP\IT 7 WEB APP\Code WebApp\HProject\HProject\HProjectStaff\bin\Microsoft.AI.Web.xml
+G:\OneDrive - K3v(1)\Engrish + IT\1 code\6.2Web Application Development (1510)\tuye\Assignment-WAD-GCS0501\Desktop\IT 7 WEB APP\IT 7 WEB APP\Code WebApp\HProject\HProject\HProjectStaff\bin\Microsoft.ApplicationInsights.xml
+G:\OneDrive - K3v(1)\Engrish + IT\1 code\6.2Web Application Development (1510)\tuye\Assignment-WAD-GCS0501\Desktop\IT 7 WEB APP\IT 7 WEB APP\Code WebApp\HProject\HProject\HProjectStaff\bin\System.Web.Helpers.xml
+G:\OneDrive - K3v(1)\Engrish + IT\1 code\6.2Web Application Development (1510)\tuye\Assignment-WAD-GCS0501\Desktop\IT 7 WEB APP\IT 7 WEB APP\Code WebApp\HProject\HProject\HProjectStaff\bin\System.Web.Mvc.xml
+G:\OneDrive - K3v(1)\Engrish + IT\1 code\6.2Web Application Development (1510)\tuye\Assignment-WAD-GCS0501\Desktop\IT 7 WEB APP\IT 7 WEB APP\Code WebApp\HProject\HProject\HProjectStaff\bin\System.Web.Optimization.xml
+G:\OneDrive - K3v(1)\Engrish + IT\1 code\6.2Web Application Development (1510)\tuye\Assignment-WAD-GCS0501\Desktop\IT 7 WEB APP\IT 7 WEB APP\Code WebApp\HProject\HProject\HProjectStaff\bin\System.Web.Razor.xml
+G:\OneDrive - K3v(1)\Engrish + IT\1 code\6.2Web Application Development (1510)\tuye\Assignment-WAD-GCS0501\Desktop\IT 7 WEB APP\IT 7 WEB APP\Code WebApp\HProject\HProject\HProjectStaff\bin\System.Web.WebPages.xml
+G:\OneDrive - K3v(1)\Engrish + IT\1 code\6.2Web Application Development (1510)\tuye\Assignment-WAD-GCS0501\Desktop\IT 7 WEB APP\IT 7 WEB APP\Code WebApp\HProject\HProject\HProjectStaff\bin\System.Web.WebPages.Deployment.xml
+G:\OneDrive - K3v(1)\Engrish + IT\1 code\6.2Web Application Development (1510)\tuye\Assignment-WAD-GCS0501\Desktop\IT 7 WEB APP\IT 7 WEB APP\Code WebApp\HProject\HProject\HProjectStaff\bin\System.Web.WebPages.Razor.xml
+G:\OneDrive - K3v(1)\Engrish + IT\1 code\6.2Web Application Development (1510)\tuye\Assignment-WAD-GCS0501\Desktop\IT 7 WEB APP\IT 7 WEB APP\Code WebApp\HProject\HProject\HProjectStaff\bin\Antlr3.Runtime.pdb
+G:\OneDrive - K3v(1)\Engrish + IT\1 code\6.2Web Application Development (1510)\tuye\Assignment-WAD-GCS0501\Desktop\IT 7 WEB APP\IT 7 WEB APP\Code WebApp\HProject\HProject\HProjectStaff\bin\Newtonsoft.Json.xml
+G:\OneDrive - K3v(1)\Engrish + IT\1 code\6.2Web Application Development (1510)\tuye\Assignment-WAD-GCS0501\Desktop\IT 7 WEB APP\IT 7 WEB APP\Code WebApp\HProject\HProject\HProjectStaff\obj\Debug\HProjectStaff.csproj.CopyComplete
+G:\OneDrive - K3v(1)\Engrish + IT\1 code\6.2Web Application Development (1510)\tuye\Assignment-WAD-GCS0501\Desktop\IT 7 WEB APP\IT 7 WEB APP\Code WebApp\HProject\HProject\HProjectStaff\obj\Debug\HProjectStaff.csprojResolveAssemblyReference.cache
+G:\MVC\HProject\HProject\HProjectStaff\bin\ApplicationInsights.config
+G:\MVC\HProject\HProject\HProjectStaff\bin\roslyn\csc.exe
+G:\MVC\HProject\HProject\HProjectStaff\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+G:\MVC\HProject\HProject\HProjectStaff\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+G:\MVC\HProject\HProject\HProjectStaff\bin\roslyn\Microsoft.CodeAnalysis.dll
+G:\MVC\HProject\HProject\HProjectStaff\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+G:\MVC\HProject\HProject\HProjectStaff\bin\roslyn\Microsoft.CSharp.Core.targets
+G:\MVC\HProject\HProject\HProjectStaff\bin\roslyn\Microsoft.VisualBasic.Core.targets
+G:\MVC\HProject\HProject\HProjectStaff\bin\roslyn\System.Collections.Immutable.dll
+G:\MVC\HProject\HProject\HProjectStaff\bin\roslyn\System.Reflection.Metadata.dll
+G:\MVC\HProject\HProject\HProjectStaff\bin\roslyn\vbc.exe
+G:\MVC\HProject\HProject\HProjectStaff\bin\roslyn\VBCSCompiler.exe
+G:\MVC\HProject\HProject\HProjectStaff\bin\roslyn\VBCSCompiler.exe.config
+G:\MVC\HProject\HProject\HProjectStaff\bin\HProjectStaff.dll.config
+G:\MVC\HProject\HProject\HProjectStaff\bin\HProjectStaff.dll
+G:\MVC\HProject\HProject\HProjectStaff\bin\HProjectStaff.pdb
+G:\MVC\HProject\HProject\HProjectStaff\bin\Antlr3.Runtime.dll
+G:\MVC\HProject\HProject\HProjectStaff\bin\EntityFramework.dll
+G:\MVC\HProject\HProject\HProjectStaff\bin\EntityFramework.SqlServer.dll
+G:\MVC\HProject\HProject\HProjectStaff\bin\Microsoft.AI.Agent.Intercept.dll
+G:\MVC\HProject\HProject\HProjectStaff\bin\Microsoft.AI.DependencyCollector.dll
+G:\MVC\HProject\HProject\HProjectStaff\bin\Microsoft.AI.PerfCounterCollector.dll
+G:\MVC\HProject\HProject\HProjectStaff\bin\Microsoft.AI.ServerTelemetryChannel.dll
+G:\MVC\HProject\HProject\HProjectStaff\bin\Microsoft.AI.Web.dll
+G:\MVC\HProject\HProject\HProjectStaff\bin\Microsoft.AI.WindowsServer.dll
+G:\MVC\HProject\HProject\HProjectStaff\bin\Microsoft.ApplicationInsights.dll
+G:\MVC\HProject\HProject\HProjectStaff\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+G:\MVC\HProject\HProject\HProjectStaff\bin\Microsoft.Web.Infrastructure.dll
+G:\MVC\HProject\HProject\HProjectStaff\bin\Newtonsoft.Json.dll
+G:\MVC\HProject\HProject\HProjectStaff\bin\System.Web.Helpers.dll
+G:\MVC\HProject\HProject\HProjectStaff\bin\System.Web.Mvc.dll
+G:\MVC\HProject\HProject\HProjectStaff\bin\System.Web.Optimization.dll
+G:\MVC\HProject\HProject\HProjectStaff\bin\System.Web.Razor.dll
+G:\MVC\HProject\HProject\HProjectStaff\bin\System.Web.WebPages.Deployment.dll
+G:\MVC\HProject\HProject\HProjectStaff\bin\System.Web.WebPages.dll
+G:\MVC\HProject\HProject\HProjectStaff\bin\System.Web.WebPages.Razor.dll
+G:\MVC\HProject\HProject\HProjectStaff\bin\WebGrease.dll
+G:\MVC\HProject\HProject\HProjectStaff\bin\EntityFramework.xml
+G:\MVC\HProject\HProject\HProjectStaff\bin\EntityFramework.SqlServer.xml
+G:\MVC\HProject\HProject\HProjectStaff\bin\Microsoft.AI.DependencyCollector.xml
+G:\MVC\HProject\HProject\HProjectStaff\bin\Microsoft.AI.ServerTelemetryChannel.xml
+G:\MVC\HProject\HProject\HProjectStaff\bin\Microsoft.AI.Web.xml
+G:\MVC\HProject\HProject\HProjectStaff\bin\Microsoft.AI.WindowsServer.xml
+G:\MVC\HProject\HProject\HProjectStaff\bin\Microsoft.ApplicationInsights.xml
+G:\MVC\HProject\HProject\HProjectStaff\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+G:\MVC\HProject\HProject\HProjectStaff\bin\System.Web.Helpers.xml
+G:\MVC\HProject\HProject\HProjectStaff\bin\System.Web.Mvc.xml
+G:\MVC\HProject\HProject\HProjectStaff\bin\System.Web.Optimization.xml
+G:\MVC\HProject\HProject\HProjectStaff\bin\System.Web.Razor.xml
+G:\MVC\HProject\HProject\HProjectStaff\bin\System.Web.WebPages.xml
+G:\MVC\HProject\HProject\HProjectStaff\bin\System.Web.WebPages.Deployment.xml
+G:\MVC\HProject\HProject\HProjectStaff\bin\System.Web.WebPages.Razor.xml
+G:\MVC\HProject\HProject\HProjectStaff\bin\Antlr3.Runtime.pdb
+G:\MVC\HProject\HProject\HProjectStaff\bin\Newtonsoft.Json.xml
+G:\MVC\HProject\HProject\HProjectStaff\obj\Debug\HProjectStaff.csproj.CoreCompileInputs.cache
+G:\MVC\HProject\HProject\HProjectStaff\obj\Debug\HProjectStaff.csproj.CopyComplete
+G:\MVC\HProject\HProject\HProjectStaff\obj\Debug\HProjectStaff.dll
+G:\MVC\HProject\HProject\HProjectStaff\obj\Debug\HProjectStaff.pdb
+G:\MVC\HProject\HProject\HProjectStaff\obj\Debug\HProjectStaff.csprojResolveAssemblyReference.cache
